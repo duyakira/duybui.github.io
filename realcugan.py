@@ -6,7 +6,6 @@ from realcugan_ncnn_py import Realcugan # đúng theo lib bạn dùng
 import gc
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
-
 model2x = Realcugan(gpuid=1,scale=2,noise=0,model="models-se")
 model3x = Realcugan(gpuid=1,scale=3,noise=0,model="models-se")
 model4x = Realcugan(gpuid=1,scale=4,noise=0,model="models-se")
