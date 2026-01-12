@@ -5,7 +5,6 @@ import gc
 import os
 import cv2
 import traceback
-
 task_queue2 = queue.Queue()
 
 def worker2():
